@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\cafe system",
+    "\\cafe system\\cafe system",
+    "\\CafesystemAPI",
+    "\\CafesystemAPI\\CafesystemAPI",
+    "\\CafesystemAPI\\CafesystemAPI\\Controllers",
+    "\\CafesystemAPI\\CafesystemAPI\\DBContext"
+  ],
+  "SelectedNode": "\\cafe system\\cafe system\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

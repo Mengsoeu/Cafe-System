@@ -1,0 +1,14 @@
+D:\cafe system\cafe system\bin\Debug\cafe system.exe.config
+D:\cafe system\cafe system\bin\Debug\cafe system.exe
+D:\cafe system\cafe system\bin\Debug\cafe system.pdb
+D:\cafe system\cafe system\obj\Debug\cafe system.csproj.AssemblyReference.cache
+D:\cafe system\cafe system\obj\Debug\cafe system.csproj.CoreCompileInputs.cache
+D:\cafe system\cafe system\obj\Debug\cafe system.exe
+D:\cafe system\cafe system\obj\Debug\cafe system.pdb
+D:\Console app\cafe system\cafe system\bin\Debug\cafe system.exe.config
+D:\Console app\cafe system\cafe system\bin\Debug\cafe system.exe
+D:\Console app\cafe system\cafe system\bin\Debug\cafe system.pdb
+D:\Console app\cafe system\cafe system\obj\Debug\cafe system.csproj.AssemblyReference.cache
+D:\Console app\cafe system\cafe system\obj\Debug\cafe system.csproj.CoreCompileInputs.cache
+D:\Console app\cafe system\cafe system\obj\Debug\cafe system.exe
+D:\Console app\cafe system\cafe system\obj\Debug\cafe system.pdb

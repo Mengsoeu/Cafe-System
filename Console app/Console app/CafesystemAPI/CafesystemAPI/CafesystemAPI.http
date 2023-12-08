@@ -1,0 +1,6 @@
+@CafesystemAPI_HostAddress = http://localhost:5188
+
+GET {{CafesystemAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
