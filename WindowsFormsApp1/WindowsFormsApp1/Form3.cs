@@ -13,9 +13,9 @@ namespace WindowsFormsApp1
 {
     public partial class Form3 : Form
     {
-        public string order { get; set; }
+        public string order { get; set; } //here we set public order to get the data from form1
         public static Form3 instance;
-        Form1 fgrid;
+        Form1 fgrid; //for this we set in order to make a connection datagridview from form1 to form3
         public Form3(Form1 fg)
         {
             InitializeComponent();
@@ -32,7 +32,7 @@ namespace WindowsFormsApp1
             comboBox2.Items.Add("50%");
             comboBox2.Items.Add("100%");
 
-            comboBox1.SelectedIndex = 0;
+            comboBox1.SelectedIndex = 0;//default selected item from comboBox
             comboBox2.SelectedIndex = 0;
 
             textBox1.KeyPress += textbox1_KeyPress;
@@ -49,10 +49,10 @@ namespace WindowsFormsApp1
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            label1.Text = order;
+            label1.Text = order; //when the form load 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)// when the button trigger the data will send to datagridview in form1
         {
             
             int x = Convert.ToInt32(textBox1.Text);

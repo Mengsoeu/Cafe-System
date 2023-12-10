@@ -13,21 +13,21 @@ namespace WindowsFormsApp1
     public partial class form2 : Form
     {
         private Form1 frm1;
-        private int rowIndex;
-        
-        
-        public form2(Form1 form1, int rowIndex,int id, string drink, int qty, string size, string sugar, int price)
+        private int rowIndex;//we set this for later use in order to know our row in datagrid view
+
+
+        public form2(Form1 form1, int rowIndex,int id, string drink, int qty, string size, string sugar, int price)//over we get data from form1
         {
             InitializeComponent();
 
             this.frm1 = form1;
             this.rowIndex = rowIndex;
 
-            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;//we just customized our comboBox for user just click only they can't type it
             comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox3.DropDownStyle = ComboBoxStyle.DropDownList;
 
-            comboBox1.Items.Add("Ice Latte");
+            comboBox1.Items.Add("Ice Latte");//we add items to our comboBox
             comboBox1.Items.Add("Americano");
             comboBox1.Items.Add("Mocha");
             comboBox1.Items.Add("Brown Sugar");
@@ -44,7 +44,7 @@ namespace WindowsFormsApp1
             comboBox3.Items.Add("50%");
             comboBox3.Items.Add("100%");
 
-            label6.Text = id.ToString();
+            label6.Text = id.ToString();//we set label6 = id and convert to string since it was an int
             comboBox1.Text = drink;
             textBox1.Text = qty.ToString();
             comboBox2.Text = size;
@@ -53,8 +53,8 @@ namespace WindowsFormsApp1
 
             textBox2.Enabled = false;
 
-            textBox1.KeyPress += textbox1_KeyPress;
-            comboBox1.SelectedIndexChanged += ComboBox1_SelectedIndexChanged;
+            textBox1.KeyPress += textbox1_KeyPress;//over here we set that user can only type numeric you will see in line 105
+            comboBox1.SelectedIndexChanged += ComboBox1_SelectedIndexChanged; //over here we gonna change the price when they use select item from comboBox in line 60
         }
 
         private void ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -116,7 +116,7 @@ namespace WindowsFormsApp1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)//here when the button trigger we gonna send all data to form1
         {
             int qty = Convert.ToInt32(textBox1.Text);
             string drink = comboBox1.Text;
